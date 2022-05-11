@@ -1,10 +1,11 @@
 package wrapper
 
 /*
-#cgo CFLAGS: -IC:/TDengine/include -I/usr/include -I${TAO_SRC_PATH}/include
+//#cgo CFLAGS: -IC:/TDengine/include -I/usr/include -I${TAO_SRC_PATH}/include
+#cgo CFLAGS: -IC:/TDengine/include -I/usr/include -I/usr/local/Cellar/tdengine/2.4.0.12/include
 #cgo linux LDFLAGS: -L/usr/lib -ltaos
 #cgo windows LDFLAGS: -LC:/TDengine/driver -ltaos
-#cgo darwin LDFLAGS: -L${TAO_SRC_PATH}/driver -ltaos
+#cgo darwin LDFLAGS: -L/usr/local/Cellar/tdengine/2.4.0.12/driver -ltaos
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
