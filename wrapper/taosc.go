@@ -1,10 +1,10 @@
 package wrapper
 
 /*
-#cgo CFLAGS: -IC:/TDengine/include -I/usr/include -I/usr/local/Cellar/tdengine/2.7.0.0/include
+#cgo CFLAGS: -IC:/TDengine/include -I/usr/include -I/usr/local/Cellar/tdengine/2.4.0.18/include -I/usr/local/Cellar/tdengine/2.7.0.0/include
 #cgo linux LDFLAGS: -L/usr/lib -ltaos
 #cgo windows LDFLAGS: -LC:/TDengine/driver -ltaos
-#cgo darwin LDFLAGS: -L/usr/local/Cellar/tdengine/2.7.0.0/driver -ltaos
+#cgo darwin LDFLAGS: -L/usr/local/Cellar/tdengine/2.4.0.18/driver -L/usr/local/Cellar/tdengine/2.7.0.0/driver -ltaos
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
